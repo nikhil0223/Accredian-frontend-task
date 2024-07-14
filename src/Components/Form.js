@@ -66,7 +66,7 @@ const ReferralFormModal = ({ open, handleClose }) => {
 
     if (isValid) {
       try {
-        const response = await fetch('http://localhost:3001/referrals', {
+        const response = await fetch('https://accredian-backend-task-myij.onrender.com/referrals', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
