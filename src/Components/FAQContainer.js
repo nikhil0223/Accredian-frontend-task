@@ -3,7 +3,7 @@ import React from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import contact from '../assets/div.cta-grad.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const FAQContainer = () => {
   return (
@@ -111,7 +111,7 @@ const FAQContainer = () => {
       <div className="mx-4 my-8 py-1 flex justify-center">
         <div className="bg-blue-700 rounded-lg flex">
           <Button sx={{ color: 'white' }}>Get In Touch</Button>
-          <FontAwesomeIcon icon={faGreaterThan} className="text-white py-2.5 px-2" />
+          <FontAwesomeIcon icon={faChevronRight} className="text-white py-2.5 px-2" />
         </div>
       </div>
     </div>

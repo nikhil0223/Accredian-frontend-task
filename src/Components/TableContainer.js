@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import {
   Box,
   Button,
@@ -45,8 +45,8 @@ const TableContain = () => {
         </Box>
       </div>
       <div className="mt-12 flex flex-wrap lg:justify-center ">
-        <div className="w-full lg:w-2/12">
-          <div className="mt-0">
+        <div className="w-full lg:w-2/12 mt-24">
+          <div className="">
             <Box
               sx={{
                 display: 'flex',
@@ -82,49 +82,49 @@ const TableContain = () => {
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                     <li className="flex items-center justify-between my-3 py-2 border-b border-gray-300 px-4">
                       <span className="text-gray-600">Item 1</span>
                       <span className="text-gray-600">
-                        <FontAwesomeIcon icon={faGreaterThan} />
+                        <FontAwesomeIcon icon={faChevronRight} />
                       </span>
                     </li>
                   </ul>
