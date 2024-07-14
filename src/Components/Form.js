@@ -47,7 +47,7 @@ const ReferralFormModal = ({ open, handleClose }) => {
     let isValid = true;
     let newErrors = { name: '', phone: '', email: '' };
 
-    if (!name.trim() || !/^[a-zA-Z]+$/.test(name) || name.length <= 2) {
+    if (!name.trim()  || name.length <= 2) {
       newErrors.name = 'Name is not valid';
       isValid = false;
     }
